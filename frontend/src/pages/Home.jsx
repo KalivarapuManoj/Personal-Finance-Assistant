@@ -1,6 +1,6 @@
 import React from "react";
 import TransactionList from "../components/TransactionList";
-import TransactionForm from "../components/TransactionForm"; // Import TransactionForm
+import TransactionForm from "../components/TransactionForm"; 
 import UploadReceipt from "../components/UploadReceipt";
 
 /**
@@ -20,14 +20,14 @@ export default function Home({ startDate, endDate }) {
           <strong> {startDate || "Beginning"} </strong> to <strong>{endDate || "End"}</strong>
         </p>
 
-        {/* ✅ TransactionList Component */}
+        {/* TransactionList Component */}
         <TransactionList startDate={startDate} endDate={endDate} />
       </section>
 
       <aside className="right-panel">
         <h3>Add Transaction</h3>
         <div className="transaction-form-container">
-          {/* ✅ TransactionForm Component */}
+          {/* TransactionForm Component */}
           <TransactionForm />
           <UploadReceipt /> {/* <-- Added component */}
         </div>
