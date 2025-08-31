@@ -87,29 +87,6 @@ The frontend will run on: [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## Folder Structure
-
-Personal-Finance-Assistant/
-├── backend/
-│ ├── controllers/
-│ ├── model/
-│ ├── routes/
-│ ├── uploads/
-│ ├── server.js
-│ └── package.json
-├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── context/
-│ │ ├── pages/
-│ │ ├── App.jsx
-│ │ └── index.js
-│ └── package.json
-└── README.md
-
----
-
 ## Usage
 
 1. Open the app in your browser: [http://localhost:5173](http://localhost:5173)
